@@ -15,5 +15,12 @@
         "psr-4": {
             "Bdits\\Contact\\" : "src/"
         }
-    }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Bdits\\Contact\\ContactServiceProvider"
+            ]
+        }
+    },
 }
